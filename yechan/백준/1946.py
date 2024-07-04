@@ -1,4 +1,4 @@
-# 1949
+# 1946
 import sys
 # sys.stdin = open("input.txt", "rt")
 t = int(sys.stdin.readline())
