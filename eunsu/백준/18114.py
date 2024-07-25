@@ -15,7 +15,7 @@ def is_included(c, w, n):
         else:
             diff = c - sum
             res = bisect_left(w, diff)
-            if diff != w[i] and diff != w[j] and w[res] == diff:
+            if res < n and w[res] == diff and res != i and res != j:
                 return 1
             i += 1
     return 0
