@@ -24,7 +24,7 @@ for i in range(N - 1):
                 break
         if temp < 0:
             start = mid + 1
-        elif temp > 0:
+        else:
             end = mid - 1
 
 print(data[left], data[right])
